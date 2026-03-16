@@ -1,86 +1,134 @@
 # 🤖 Generative AI Tools Ecosystem Analysis (2025)
 
-A data analysis project exploring the rapid growth and evolution of generative AI platforms across the technology landscape.
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![License](https://img.shields.io/badge/License-MIT-red)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
+A **data analysis project** exploring the rapid growth of generative AI platforms and identifying trends across the AI ecosystem.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-The rapid rise of generative AI has transformed how software products are built and used. From chatbots and image generators to multimodal AI systems, new platforms are emerging every year.
+The rise of generative artificial intelligence has transformed the technology landscape. AI systems capable of generating **text, images, video, audio, and code** are being developed rapidly by companies worldwide.
 
-This project analyzes a dataset of **100+ generative AI tools released up to 2025** to understand trends in the AI ecosystem, the companies leading innovation, and the capabilities of modern AI platforms.
+This project analyzes a dataset of **100+ generative AI tools released up to 2025** to understand:
 
-Using **Python for data analysis and visualization**, the dataset was cleaned and explored to identify patterns in AI tool development. The insights were then presented through an **interactive dashboard built with Power BI**.
+- Industry growth trends  
+- Leading AI companies  
+- Tool capabilities  
+- Adoption of multimodal AI systems  
 
----
-
-## 🎯 Objectives
-
-- Analyze the **growth of generative AI platforms**
-- Identify **leading companies building AI tools**
-- Study the distribution of **AI tool categories**
-- Explore the rise of **multimodal AI systems**
-- Understand **API availability for developers**
-- Visualize trends using **interactive dashboards**
+Using **Python for data analysis**, the dataset was cleaned and explored to identify patterns in AI tool development. The results were visualized and presented through an **interactive Power BI dashboard**.
 
 ---
 
-## 📊 Dataset Information
+# 🎯 Objectives
 
-The dataset contains detailed information about **100+ generative AI tools**, including:
-
-- Tool Name  
-- Company / Organization  
-- Tool Category  
-- Supported Modalities  
-  - Text  
-  - Image  
-  - Video  
-  - Audio  
-  - Code  
-- Release Year  
-- API Availability  
-- Open Source Status  
-- Multimodal Capability  
-
-These attributes provide a comprehensive overview of how generative AI platforms are designed and deployed.
+✔ Analyze growth of generative AI platforms  
+✔ Identify companies leading AI development  
+✔ Explore AI tool categories and capabilities  
+✔ Study multimodal AI adoption  
+✔ Evaluate API availability for developers  
+✔ Build a visual dashboard for insights  
 
 ---
 
-## ⚙️ Technologies Used
+# 📊 Dataset Information
 
-| Tool | Purpose |
-|-----|------|
+The dataset contains **100+ Generative AI platforms**, including the following attributes:
+
+| Feature | Description |
+|------|------|
+| Tool Name | Name of the AI platform |
+| Company | Organization that developed the tool |
+| Category | Type of AI tool |
+| Modalities | Text, Image, Video, Audio, Code |
+| Release Year | Year the tool was introduced |
+| API Availability | Developer integration support |
+| Open Source | Whether the tool is open source |
+| Multimodal | Supports multiple modalities |
+
+---
+
+# ⚙️ Technologies Used
+
+| Technology | Purpose |
+|------|------|
 | Python | Data analysis |
-| Pandas | Data cleaning & processing |
+| Pandas | Data cleaning & transformation |
 | Matplotlib | Data visualization |
 | Jupyter Notebook / Google Colab | Analysis environment |
 | Power BI | Interactive dashboard |
 
 ---
 
-## 📈 Key Insights
+# 📈 Exploratory Data Analysis
 
-Some of the insights discovered during the analysis:
+Key analyses performed:
 
-- Significant growth in AI tool releases **after 2022**
-- **Text-based AI systems dominate** the ecosystem
-- Increasing development of **multimodal AI platforms**
-- Many modern AI tools provide **APIs for developers**
-- Multiple companies are competing to build **AI-powered platforms**
-
----
-
-## 📊 Dashboard Features
-
-The interactive dashboard provides:
-
-- AI tools **distribution by category**
-- **Top companies** building generative AI platforms
-- **AI modality comparison** (text, image, audio, video, code)
-- **AI tool release trends over time**
-- **Open-source vs proprietary tools**
+- AI tool distribution by **category**
+- Top **companies building generative AI platforms**
+- Comparison of **AI modalities**
+- Growth of **multimodal AI systems**
+- AI tools released **by year**
+- Open-source vs proprietary platforms
 
 ---
 
-## 📂 Project Structure
+# 📊 Dashboard Preview
+
+### AI Tools Category Distribution
+![Dashboard](images/category_chart.png)
+
+### AI Tools Release Trend
+![Dashboard](images/release_trend.png)
+
+### Company Distribution
+![Dashboard](images/company_chart.png)
+
+*(Add screenshots of your Power BI dashboard in the `images` folder.)*
+
+---
+
+# 📂 Project Structure
+
+
+```
+Generative-AI-Tools-Analysis
+│
+├── dataset
+│ └── Generative AI Tools - Platforms 2025.csv
+│
+├── notebook
+│ └── ai_tools_analysis.ipynb
+│
+├── dashboard
+│ └── ai_tools_dashboard.pbix
+│
+├── README.md
+└── LICENSE
+
+```
+## 🧠 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Dashboard Development
+- Industry Trend Analysis
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Sreejal Shukla
+
+Engineering Student | Data & AI Enthusiast
+Interested in AI, Data Science, and Full-Stack Development
+
+⭐ If you found this project useful, consider starring the repository!
