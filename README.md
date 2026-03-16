@@ -80,16 +80,8 @@ Key analyses performed:
 
 # 📊 Dashboard Preview
 
-### AI Tools Category Distribution
-![Dashboard](images/category_chart.png)
-
-### AI Tools Release Trend
-![Dashboard](images/release_trend.png)
-
-### Company Distribution
-![Dashboard](images/company_chart.png)
-
-*(Add screenshots of your Power BI dashboard in the `images` folder.)*
+### AI Tools Landscape Dashboard
+![Dashboard](https://raw.githubusercontent.com/SReeJAL01/Ai-Tools-Usage-Trends/refs/heads/main/dashboard/Screenshot%202026-03-16%20170047.png)
 
 ---
 
